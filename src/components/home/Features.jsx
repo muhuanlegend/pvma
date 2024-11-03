@@ -9,8 +9,7 @@ const Features = () => {
     <section className="px-4 lg:py-[65px] py-10">
       <div className="max-w-[1200px] mx-auto">
         <h3 className="text-center text-white font-montserrat lg:text-xl md:text-lg text-base font-semibold">
-          Say goodbye to manual requirement building. Let Reqops speed things
-          up.
+        At Phiona Violina Music Academy, we are dedicated to nurturing musical talents in a supportive and inclusive environment. Our vision is to empower creative expression, enrich lives, and build a harmonious community through the joy of music. <br></br> We focus on <br></br>⬇
         </h3>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 xxl:gap-10 xl:gap-8 lg:gap-6 gap-4 lg:mt-[65px] mt-10">
           {FEATURES_DATA?.map(({ id, title, image }, index) => {

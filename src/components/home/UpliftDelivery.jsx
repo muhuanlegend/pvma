@@ -8,8 +8,11 @@ const UpliftDelivery = () => {
     <section className="lg:py-[65px] py-10 px-4">
       <div className="max-w-[1200px] mx-auto">
         <h3 className="text-center text-white font-montserrat lg:text-3xl md:text-2xl text-xl font-semibold">
-          Uplift Your Delivery Squad
+          Why Choose Us?
         </h3>
+        <p className="font-montserrat text-center text-white lg:text-xl md:text-lg text-base mb-4">
+         We ensure that every student's musical journey is celebrated and we do that through {' '} ⬇
+        </p>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 xxl:gap-10 xl:gap-8 lg:gap-6 gap-4 lg:mt-10 md:mt-8 mt-6">
           {UPLIFT_DELIVERY_DATA?.map(
             ({ id, title, icon, description }, index) => {

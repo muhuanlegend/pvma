@@ -4,17 +4,17 @@ import { Images } from "../assets/images";
 export const FEATURES_DATA = [
   {
     id: "feat_1",
-    title: "AI-Assisted Requirement Management",
+    title: "High Quality Music Education",
     image: Images.ai_assisted,
   },
   {
     id: "feat_2",
-    title: "Efficient AI-Driven Communication",
+    title: "Nurturing Music Talent",
     image: Images.ai_driven,
   },
   {
     id: "feat_3",
-    title: "Scope Creep Management",
+    title: "Music Production & Performance",
     image: Images.scope,
   },
 ];
@@ -22,61 +22,62 @@ export const FEATURES_DATA = [
 export const FEATURES_GRID_DATA = [
   {
     id: "feat_grid_1",
-    title: "AI Process Map Generation",
+    title: "Bold Brass, Brilliant Sound",
     description:
-      "Generate User Journeys and automate the Journey creation flow with AI",
+      "Experience the power and unity of playing in a brass band. Our classes will teach you how to harmonise with other instrunments and create a powerful resonant sound that stands out in any music ensemble",
     image: Images.ai_process,
   },
   {
     id: "feat_grid_2",
-    title: "Automatic AI Generated User Stories",
-    description: "Create User Stories with AI based on your User Journeys.",
+    title: "Feel the beat, lead the rhythm",
+    description: "The heart beat of every band lies within the drums. Our drum lessons are tailored to help you master rhythm, timing and coordination whether your looking to rockout on stage or keep the beat in a studio setting",
     image: Images.user_stories,
   },
   {
     id: "feat_grid_3",
-    title: "AI Test Case Generation",
+    title: "Voices that inspire",
     description:
-      "Easily Sync your User Import Designs seamlessly to create Acceptance Criteria for every screen and each User Story. Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Every voice is unique, and were here to help you find yours. Our vocal lessons are designed to enhance your vocal range, control and confidence, whether youre singing solo or as part of a choir",
     image: Images.ai_test_case,
   },
   {
     id: "feat_grid_4",
-    title: "Import your Designs",
+    title: "Elegance in every note",
     description:
-      "Import your designs from Figma seamlessly and use AI to narrate your user flows.",
+      "The violin is the epitome of grace and precision. Our violin  lessons are designed to help you refine your technique, develop your ear, and play with passion. Perfect for those who appreciate the delicate art of string music",
     image: Images.import_design,
   },
   {
     id: "feat_grid_5",
-    title: "Sync to your Tools",
+    title: "Sound of Soulful expression",
     description:
-      "Easily Sync your User Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Dive into the world of jazz and blues with our saxophone classes. Learn to create soulful tunes and express yourself with the rich, warm tones of the saxophone. Perfect for those who want to add a touch of sophistication to their musical repertoire",
     image: Images.sync_tools,
   },
+  
 ];
 
 export const UPLIFT_DELIVERY_DATA = [
   {
     id: "uplift_1",
     icon: Icons.storage,
-    title: "80% savings on testing expenditure",
+    title: "Personalized and Inclusive Learning",
     description:
-      "Achieve over $70,000 in testing cost savings, automate QA roles within agile squads, and enhance communication among BAs, Developers, and Product Owners for streamlined operations and improved collaboration.",
+      "every student’s unique musical journey is celebrated. We believe in tailoring lessons to suit each individual's skill level, goals, and learning style. Our highly trained instructors use proven, adaptable teaching methods to ensure that students, whether beginners or advanced musicians, feel supported and engaged. ",
   },
   {
     id: "uplift_2",
     icon: Icons.spiral,
-    title: "Never lose track of your features",
+    title: "Holistic Development and Creative Growth",
     description:
-      "Streamline documentation across JIRA, Confluence, and git repositories, gain instant product insights, and maintain testing traceability with our comprehensive test script dashboard.",
+      "We are dedicated to more than just technical skill-building; our curriculum fosters creativity, expression, and emotional intelligence. Our classes integrate practical performance techniques with music theory, improvisation, and collaborative projects that inspire students to explore music deeply. ",
   },
   {
     id: "uplift_3",
     icon: Icons.code,
-    title: "Less meetings more coding",
+    title: "Community and Performance Opportunities",
     description:
-      "ReqOPS requirement briefs are detailed to ensure your engineers enjoy working with us. We provide comprehensive user stories, functional UI test cases, CI integration, automated process flow generation, AI workshops, and more.",
+      "We provide a welcoming community where students can connect with fellow music enthusiasts, collaborate, and learn from each other. Our academy hosts regular performance events, recitals, and workshops that give students the invaluable experience of performing in front of live audiences, fostering stage confidence and a sense of accomplishment.",
   },
 ];
 
@@ -84,44 +85,44 @@ export const COLLECTIVE_DELIVERY_DATA = [
   {
     id: "collective_1",
     icon: Icons.project_cord,
-    title: "Project Coordination",
+    title: "Guitars (Electric, Bass, Acoustic, Classical)",
     description:
-      "Ensure efficient planning, execution, and completion of projects, keeping them on schedule and within budget.",
+      "Whether you're into rock, jazz, or classical, our guitar lessons cover everything from basics to advanced techniques, for all styles and preferences.",
   },
   {
     id: "collective_2",
     icon: Icons.risk_mgmt,
-    title: "Risk Management",
+    title: "Violin",
     description:
-      "Proactively identify and mitigate risks to prevent delays and project failures.",
+      "Learn the art of the violin with personalized lessons that guide you from beginner to advanced levels. Refine your skills and play with confidence.",
   },
   {
     id: "collective_3",
     icon: Icons.communication,
-    title: "Communication",
+    title: "Piano",
     description:
-      "They maintain open communication between teams and stakeholders, ensuring alignment and clarity on project goals.",
+      "Discover the joy of playing the piano, from classical pieces to modern songs. Our lessons are designed to develop your technique and musical expression.",
   },
   {
     id: "collective_4",
     icon: Icons.strategic_align,
-    title: "Strategic Alignment",
+    title: "Drums",
     description:
-      "They ensure projects align with and contribute to the organisation’s strategic objectives.",
+      "From basic beats to complex rhythms, our drum lessons will have you keeping time like a pro. Learn to create dynamic and energetic music",
   },
   {
     id: "collective_5",
     icon: Icons.scope_mgmt,
-    title: "Scope Management",
+    title: "Saxophone",
     description:
-      "Changes in project scope or resources, adapting strategies to ensure successful outcomes.",
+      "Explore the vibrant tones of the saxophone. Our lessons help you master control, tone, and improvisation, whether you're a beginner or experienced.",
   },
   {
     id: "collective_6",
     icon: Icons.quality_assur,
-    title: "Quality Assurance",
+    title: "Vocals (Singing)",
     description:
-      "Oversee project standards and quality, ensuring outputs meet or exceed expectations.",
+      "Our vocal coaching helps you unlock your singing potential, covering technique, range, and performance skills to shine in any genre.",
   },
 ];
 
@@ -129,29 +130,29 @@ export const FRAMEWORK_DATA = [
   {
     id: "framework_1",
     image: Images.framework1,
-    title: "Requirements Management",
+    title: "Young Children (3-10) years",
     description:
-      "Track project progress, health, risks, and status. Log feedback, and monitor scope creep to ensure stakeholders are always informed, providing a clear and up-to-date understanding of the project's status for effective decision-making and smoother execution.",
+      "Our fun and interactive lessons introduce young children to the world of music. Through engaging activities and hands-on instrument play, we nurture a love for music from an early age",
   },
   {
     id: "framework_2",
     image: Images.framework2,
-    title: "Automatic BPMN 2.0 Generation",
+    title: "Teens (11-17) years",
     description:
-      "Leverage intuitive AI to create Process Maps, User Journeys, and flows automatically. Generate diagrams for each feature effortlessly, eliminating the need for manual layout and streamlining the visualization process.",
+      "Our teen programs are designed to help young musicians refine their skills, explore different genres, and gain confidence. Join us to learn advanced techniques and prepare for performances.",
   },
   {
     id: "framework_3",
     image: Images.framework3,
-    title: "Test Automation",
+    title: "Adults (18+) years",
     description:
-      "Simplify the creation of Acceptance Criteria and execution of automated test scripts. Track testing progress and eliminate the need for manual testing, enhancing efficiency and accuracy in the testing process.",
+      "It’s never too late to start or return to music! Our adult lessons cater to all levels, from beginners to advanced musicians. Learn at your own pace and enjoy the fulfillment that comes from playing music.",
   },
   {
     id: "framework_4",
     image: Images.framework4,
-    title: "Integrate into your existing ecosystem",
+    title: "Private Lessons",
     description:
-      "Integrate into your existing ecosystem seamlessly by syncing Reqops with tools like Jira, Azure, and Asana. Continue using your preferred tools while Reqops creates and manages your tickets, saving you the time and effort of manual ticket creation.",
+      "For personalized instruction, our private lessons offer one-on-one attention tailored to your individual needs and goals. Perfect for those seeking focused learning and rapid progress.",
   },
 ];

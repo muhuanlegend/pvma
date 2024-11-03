@@ -40,7 +40,7 @@ const Header = () => {
                   to=""
                   className="text-white text-base font-source-sans hover:opacity-90 transition-all ease-in-out duration-300 font-normal whitespace-nowrap"
                 >
-                  Features
+                  Programs
                 </Link>
               </li>
               <li>
@@ -48,7 +48,7 @@ const Header = () => {
                   to=""
                   className="text-white text-base font-source-sans hover:opacity-90 transition-all ease-in-out duration-300 font-normal whitespace-nowrap"
                 >
-                  Benefits
+                  About
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ const Header = () => {
                   to=""
                   className="text-white text-base font-source-sans hover:opacity-90 transition-all ease-in-out duration-300 font-normal whitespace-nowrap"
                 >
-                  Free Generator
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -101,23 +101,23 @@ const Header = () => {
 
       <div className="flex flex-col items-center justify-center max-w-[1020px] mx-auto text-center font-montserrat flex-1 relative z-10 mt-[100px] px-4">
         <h1 className="text-white font-bold xl:text-[64px] lg:text-5xl text-4xl leading-[1.25]">
-          Pioneering communication in{" "}
-          <span className="gradi-theme-text">software delivery.</span>
+        Transforming Dreams into{" "}
+          <span className="gradi-theme-text">Melodies.</span>
         </h1>
         <p className="lg:text-xl md:text-lg text-base my-[46px]">
-          Accelerate development with AI-driven speed from design to delivery
-          faster than ever before.
+        Learn, play, and grow with personalised lessons that turn dreams into reality 
+        — whether you're finding your voice or mastering an instrument.
         </p>
         <form className="w-full">
           <div className="flex flex-col md:flex-row items-stretch gap-[14px] md:max-w-[610px] mx-auto">
-            <input
+            {/* <input
               type="email"
               placeholder="Enter you work email"
               className="lg:min-h-[56px] min-h-[50px] px-4 rounded-lg bg-transparent border-[1px] border-white w-full placeholder:text-cadet-gray outline-0 font-source-sans lg:text-base text-sm"
-            />
-            <button type="submit" className="bg-risd-blue rounded-lg lg:min-h-[56px] min-h-[50px] text-nowrap text-base px-5 font-semibold hover:scale-105 transition-all ease-in-out duration-300">
+            /> */}
+            {/* <button type="submit" className="bg-risd-blue rounded-lg lg:min-h-[56px] min-h-[50px] text-nowrap text-base px-5 font-semibold hover:scale-105 transition-all ease-in-out duration-300">
               Request Early Access
-            </button>
+            </button> */}
           </div>
         </form>
       </div>
